@@ -18,7 +18,6 @@ BEGIN {
     
     rmax = sqrt(r2max)
     rprime = cor/rmax
-    print  "+++++++++++++++++++++++r-sq-prime+++++++++++++++++++++++"
     printf "%6s %6s %6s %6s %6s %10s %10s\n", "Pa","Pb","R","R-max","R-sq","R-sq-max","R-prime"
     printf "%1.4f %1.4f %1.4f %1.4f %1.4f %10.4f %10.4f\n", Pa, Pb, cor, rmax, cor*cor, r2max, rprime
 }
