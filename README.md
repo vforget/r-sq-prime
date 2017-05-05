@@ -1,4 +1,4 @@
-B0;136;0c# R-sq-prime 
+# R-sq-prime 
 
 Computed R-squared-prime as defined by:
 
