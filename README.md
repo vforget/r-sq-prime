@@ -1,4 +1,4 @@
-# R-sq-prime 
+B0;136;0c# R-sq-prime 
 
 Computed R-squared-prime as defined by:
 
@@ -23,4 +23,10 @@ Computed R-squared-prime as defined by:
      
     $ ./r-sq-prime.sh ${path_to_binary_ped}/${chrom} ${snpA} ${snpB}
 
-    
+## Plot of r-sq-max as function of MAF of SNP(a) and SNP(b)
+
+    Rscript r-sq-max.R
+   
+ Resulting plot:
+
+![r-sq-max](r-sq-max.png "R-sq-max as function of MAF of SNP(a) and SNP(b)")
