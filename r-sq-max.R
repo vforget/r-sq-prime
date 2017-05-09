@@ -12,7 +12,7 @@ getr2max <- function(x) {
   NA
 }
 
-# Modofied default filled.contour() to exclude border within legend.
+# Modified default filled.contour() to exclude border within legend.
 source("filled.contour.R")
 
 x <- seq(0.005, 0.5, 0.0005)
